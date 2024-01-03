@@ -1,0 +1,23 @@
+:root {
+  --bg-whiter: hsl(0, 0%, 87%);
+  --bg-darker: hsl(0, 0%, 77%);
+  --working-holiday-color: hsl(195, 50%, 50%);
+  --non-working-holiday-color: hsl(0, 70%, 60%);
+}
+
+* {
+  box-sizing: border-box;
+  color: black;
+}
+
+body {
+  background: linear-gradient(70deg, var(--bg-whiter), var(--bg-darker));
+}
+
+.working-holiday {
+  color: var(--working-holiday-color) !important;
+}
+
+.non-working-holiday {
+  color: var(--non-working-holiday-color) !important;
+}
